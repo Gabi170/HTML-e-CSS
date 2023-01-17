@@ -1,0 +1,21 @@
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: slateblue;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.arrendodamento{
+    margin: 10px;
+    width: 360px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
