@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: linear-gradient(306deg, rgb(228, 82, 82) , rgb(189, 119, 255), rgb(255, 115, 253));
+}
+
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid rgb(158, 160, 221);
+}
+
+legend{
+    font-weight: bolder;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input /*[type="text"]*/{
+    /*width: 20em;*/
+    border: 1px solid blue;
+}
+
+textarea{
+    width: 20em;
+    height: 10em;
+    background: none;
+    font-size: 15px;
+    color: white;
+}
+
+/*input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+
+.radio{
+    margin-right: 1em;
+}*/

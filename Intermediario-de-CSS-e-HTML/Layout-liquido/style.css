@@ -1,0 +1,87 @@
+/*******Layouts*****/
+
+body {
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+}
+
+#marca{
+    height: 100px;
+    text-align: center;
+    background: #9E9E9E;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal{
+    width: 64%;
+    float: left;
+    padding-right: 10px;
+}
+
+#conteudo-secundario{
+    width: 36%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#navegacao {
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #1e1e1e;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+ul a{
+    display: inline;
+    width: 95%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    right: 20px;
+    text-indent: 40px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+li a:hover {
+    display: block;
+    width: 95%;
+    height: 40px;
+    background: #dfdfdf;
+    color: #848484;
+}
+
+ul #atual a{
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: #dfdfdf;
+    color: #848484;
+}
+
+li a{
+    text-decoration: none;
+}
+
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
